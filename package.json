@@ -10,7 +10,7 @@
     "start": "node dist/server.js",
     "deploy": "vercel deploy --prod",
     "dev": "nodemon src/app.ts",
-    "build": "rimraf ./dist && tsc"
+    "build": "rimraf ./public && tsc"
   },
   "devDependencies": {
     "@types/express": "^4.17.14",
