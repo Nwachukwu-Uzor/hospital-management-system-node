@@ -1,6 +1,9 @@
 import express, { Application, Request, Response } from "express";
+import * as dotenv from "dotenv";
+dotenv.config();
+
 const app: Application = express();
-const port: number = 3000;
+const port: number = Number(process.env.PORT);
 app.get("/", (req: Request, res: Response) => {
   res.status(200).json({
     message: "success",
@@ -9,5 +12,5 @@ app.get("/", (req: Request, res: Response) => {
 });
 
 app.listen(port, () => {
-  console.info(`Ready on port ${port} modified`);
+  console.info(`Ready on port ${port}`);
 });
