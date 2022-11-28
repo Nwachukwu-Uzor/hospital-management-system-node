@@ -5,6 +5,9 @@
   "repository": "https://github.com/Nwachukwu-Uzor/hospital-management-system-node.git",
   "author": "Nwachukwu-Uzor <uzor1997@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
   "type": "module",
   "scripts": {
     "start": "node index.js",
