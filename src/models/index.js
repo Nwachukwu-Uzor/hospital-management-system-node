@@ -1,1 +1,1 @@
-export {default as Hospital} from "./Hospital"
+export {default as Hospital} from "./Hospital.js"

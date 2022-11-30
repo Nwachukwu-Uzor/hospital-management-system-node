@@ -1,5 +1,5 @@
 import bcrypt from "bcrypt";
-import { Hospital } from "../models/";
+import { Hospital } from "../models/index.js";
 
 const ROUNDS = 10;
 
