@@ -1,9 +1,6 @@
 import express from "express";
-import * as dotenv from "dotenv";
-
-dotenv.config();
-
-const port = process.env.PORT;
+import connection from "./configs/connection.js";
+import { port } from "./configs/index.js";
 
 const app = express();
 
